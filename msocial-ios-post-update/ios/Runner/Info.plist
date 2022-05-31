@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Mothering Social</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>mothering_social</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1004011245412-fldoeic31jkufoj1jfejgq14ir0dhprt</string>
+				<string>com.googleusercontent.apps.499373690708-rbi83bd0knemcru4077tma9fmt3oaepc</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>The App needs access to camera to share pictures which the users post while in accordance with the EULA terms accepted during sign up. It is also used to change user's profile picture and share pictures while chatting with other users. Other than that, it is used in no other ways.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>App needs access to contacts so you can contact them</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Sending a voice message to your contacts</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Storing the downloaded photos that were posted or sent by other users in the app</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>App needs access to share your photos in profile and contacts in accordance with the EULA terms accepted during sign up. This allows users to post their iamges from the library into the app feed and update their profile picture. Other than that, it is used in no other ways</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>App needs access to share media with users.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>App needs access to Bluetooth.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

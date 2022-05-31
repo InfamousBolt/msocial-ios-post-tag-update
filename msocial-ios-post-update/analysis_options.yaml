@@ -1,0 +1,22 @@
+include: package:lint/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - lib/generated_plugin_registrant.dart
+    - lib/firebase_options.dart
+    - /**/*.g.dart
+    - /**/*.freezed.dart
+  errors:
+    missing_required_param: error
+
+linter:
+  rules:
+    constant_identifier_names: false
+    public_member_api_docs: false
+    avoid_catches_without_on_clauses: false
+    avoid_positional_boolean_parameters: false
+    prefer_mixin: false
+    prefer_const_constructors: false
+    sort_pub_dependencies: false
+    prefer_relative_imports: true
+    always_use_package_imports: false
