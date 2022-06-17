@@ -12,9 +12,9 @@ dependencies:
     sdk: flutter
   async: 2.8.2
   auto_size_text: 3.0.0
-  linkify: ^4.0.0
-  carousel_slider: ^4.1.1
-  smooth_page_indicator: ^1.0.0+2
+  linkify:
+  carousel_slider:
+  smooth_page_indicator:
   awesome_dialog: 2.1.2
   algolia: ^1.1.1
   badges: 2.0.2
